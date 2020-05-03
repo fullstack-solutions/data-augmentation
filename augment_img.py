@@ -1,4 +1,4 @@
-from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
+from keras.preprocessing.image import ImageDataGenerator, img_to_array
 import os
 from PIL import Image
 datagen = ImageDataGenerator(shear_range=0.2, zoom_range=0.2) 
